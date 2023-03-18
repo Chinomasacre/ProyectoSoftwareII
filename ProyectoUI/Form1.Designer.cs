@@ -1,6 +1,6 @@
-﻿namespace Proyecto
+﻿namespace ProyectoUI
 {
-    partial class UserControl1
+    partial class Form1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -20,7 +20,7 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de componentes
+        #region Código generado por el Diseñador de Windows Forms
 
         /// <summary>
         /// Método necesario para admitir el Diseñador. No se puede modificar
@@ -28,19 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // UserControl1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(800, 450);
-            this.Load += new System.EventHandler(this.UserControl1_Load);
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
         }
 
         #endregion
     }
 }
+
