@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente\FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\FormContabiliidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\FormContabiliidad.Designer.cs">
+      <DependentUpon>FormContabiliidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\FormEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\FormEmpleado.Designer.cs">
+      <DependentUpon>FormEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Factura\FormFactura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,10 +113,6 @@
       <Name>Entity</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Cliente\" />
-    <Folder Include="Contabilidad\" />
-    <Folder Include="Empleado\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
