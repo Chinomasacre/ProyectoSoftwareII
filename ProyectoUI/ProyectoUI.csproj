@@ -58,6 +58,12 @@
     <Compile Include="Contabilidad\FormContabiliidad.Designer.cs">
       <DependentUpon>FormContabiliidad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Contabilidad\FormGastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\FormGastos.Designer.cs">
+      <DependentUpon>FormGastos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Empleado\FormEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
