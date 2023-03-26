@@ -12,6 +12,6 @@ namespace Entity
         public string Usuario { get; set; }
         public string Contraseña { get; set; }
 
-
+        //sdfghjkliuytrdcvbjuytrfdc
     }
 }
